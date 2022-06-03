@@ -24,6 +24,43 @@ The designs were created to the following widths:
 
 - Family: [Outfit](https://fonts.google.com/specimen/Outfit)
 - Weights: 400, 700*/
+body {
+  background-color: #d5e1ef;
+  font-family: "Outfit", sans-serif;
+  text-align: center;
+  color: hsl(218, 44%, 22%);
+}
+
+img {
+  border-radius: 10px;
+  display: block;
+  margin: auto;
+  width: 100%;
+}
+
+h3 {
+  font-size: 22px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding: 0 15px;
+  letter-spacing: 1px;
+}
+
+p {
+  font-size: 16px;
+  padding: 0 23px;
+  opacity: 0.6;
+}
+
+.component-container {
+  background-color: hsl(0, 0%, 100%);
+  border: 1px solid hsl(0, 0%, 100%);
+  border-radius: 20px;
+  display: block;
+  margin: 150px auto;
+  max-width: 320px;
+  padding: 15px 15px 30px;
+}
 
 .code-link {
   font-size: 11px;
